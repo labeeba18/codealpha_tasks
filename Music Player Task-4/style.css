@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(135deg,#1d1d1f,#000);
+  color: white;
+  font-family: -apple-system;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #2997ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  transform: scale(1.1);
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+}
+
+#playlist li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#playlist li:hover {
+  color: #2997ff;
+}
